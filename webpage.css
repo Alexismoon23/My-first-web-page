@@ -17,6 +17,7 @@ h1{
 
  .location{
     color:purple;
+    margin-bottom:16px;
  }
 
  #angular{
@@ -61,4 +62,28 @@ h2{
 }
 h3{
    margin-bottom:4px;
+   margin-top:0;
+}
+h5{
+   margin:4px;
+}
+.apply{
+   float:right;
+}
+#footer{
+   background-color: lightblue;
+   color:white;
+   padding: 8px;
+   margin-top:16px;
+}
+#footer-links{
+   list-style:none;
+   text-align:center;
+}
+#footer-links li{
+   display:inline;
+   margin:0 16px;
+}
+.copyright{
+   color:green;
 }
