@@ -71,10 +71,10 @@ h5{
    float:right;
 }
 #footer{
-   background-color: lightblue;
    color:white;
    padding: 8px;
    margin-top:16px;
+   text-align:center;
 }
 #footer-links{
    list-style:none;
