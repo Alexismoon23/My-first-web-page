@@ -59,10 +59,12 @@ h1{
    padding:8px;
    background-color: blue;
    color: white;
+   text-align: center;
  }
  .jobs-data-row td{
    border: 1px solid gray;
    padding:8px;
+   background-color: lightblue;
  }
  #jobs-table tr:nth-child(odd){
 background-color: lightblue;
