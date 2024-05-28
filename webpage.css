@@ -47,7 +47,26 @@ h1{
  }
  #people-image{
    border-radius: 5px;
-   width:70%;
+   width:100%;
+ }
+ #jobs-table{
+   width:100%;
+   border: 1px solid gray;
+   border-collapse:collapse;
+ }
+ .jobs-header-row th{
+   border: 1px solid gray;
+   padding:8px;
+   background-color: blue;
+   color: white;
+ }
+ .jobs-data-row td{
+   border: 1px solid gray;
+   padding:8px;
+ }
+ #jobs-table tr:nth-child(odd){
+background-color: lightblue;
+
  }
 p{
    margin:0;
