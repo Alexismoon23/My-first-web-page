@@ -1,7 +1,22 @@
+html{
+   font-size: 16px;
+   color:rgb(66, 135, 245)
+}
 body{
    margin:0;
    padding:0;
-   font-family:sans-serif;
+   font-family:'Roboto',sans-serif;
+   /*font-size:34px;
+   font-weight: 600;
+   text-align:justify;
+   font-style:italic;
+   line-height: 1.2;*/
+   font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Inter',sans-serif;
+   text-decoration:underline;
+   font-weight: 600;
 }
 #navbar{
    padding:8px;
@@ -9,6 +24,8 @@ body{
 }
 h1{
     text-align:center;
+    text-transform:uppercase;
+    font-size:3em;
 }
 
  #passion{
@@ -126,4 +143,5 @@ h5{
 }
 .copyright{
    color:green;
+   font-size:0.875rem;
 }
