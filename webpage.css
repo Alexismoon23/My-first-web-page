@@ -68,7 +68,26 @@ h1{
  }
  #jobs-table tr:nth-child(odd){
 background-color: lightblue;
-
+ }
+ #application{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0 8px;
+   
+ }
+ #application-form div{
+   margin:8px;
+ }
+ #application-form label{
+   font-weight: 600 px;
+   margin-top:8px;
+ }
+ #application-form input{
+   padding:4px;
+   font-size: 1.25rem;
+   margin-top:4px;
+   border-radius:5px;
+   border-color:1px solid gray;
  }
 p{
    margin:0;
