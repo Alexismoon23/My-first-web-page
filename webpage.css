@@ -1,4 +1,4 @@
-html{
+ html{
    font-size: 16px;
    color:rgb(66, 135, 245)
 }
@@ -95,16 +95,24 @@ background-color: lightblue;
  #application-form div{
    margin:8px;
  }
+ .form-group{
+   margin: 16px 0;
+ }
  #application-form label{
    font-weight: 600 px;
    margin-top:8px;
  }
- #application-form input{
+#application-form input, select,textarea
+{
    padding:4px;
    font-size: 1.25rem;
    margin-top:4px;
    border-radius:5px;
-   border-color:1px solid gray;
+   border-color:8 px solid gray;
+ }
+ .form-group textarea{
+   width:80%;
+   font-family: "Roboto";
  }
 p{
    margin:0;

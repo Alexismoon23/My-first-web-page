@@ -111,14 +111,41 @@
                         <input type="submit" value="Submit">
                     </div>-->
                     <form id="application-form">
+                        
                     <div>
                         <label for="name">Full Name</label><br>
-                        <input type="text" id="name" name="Full Name" required>
+                        <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="Email adress" required placeholder="jdoe@example.com">
                     </div>
                     <div>
-                        <label for="email">Email</label><br>
-                        <input type="email" id="email" name="Email adress" required>
+                        <label for="phone number">Phone</label><br>
+                        <input type="number" id="number" name="Phone number" required placeholder="+91989898989">
                     </div>
+                    <div class="form-group">
+                    <label for="Dob">Birthday</label><br>
+                    <input type="date" id="dob" name="dob" placeholder="10/10/2003">
+                   </div>
+                   <div class="form-group">
+                    <label for="position">Position applied for</label><br>
+                    <select id="position" name="Position Applied" required>
+                        <option value="">Select Position </option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="datascientist">Dta Scientist</option>
+                        <option value="ml engineer">ML Engineer </option>
+                    </select>
+                   </div>
+                   <div class="form-group">
+                   <label for="resume">Resume</label><br>
+                   <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                   </div>
+                   <div class="form-group">
+                    <label for="coverletter">Cover Letter</label><br>
+                    <textarea id="coverletter" name="coverletter" placeholder="Explain what makes you suitable for the job...."></textarea>
+                   </div>
                    </form>
                 <!--<h3 class="job-role">Frontend Developer</h3>
                 <a href="mailto:support@jovian.com?subject=FrontendDeveloper" class="apply" target="_blank">Apply</a>
