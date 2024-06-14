@@ -114,6 +114,17 @@ background-color: lightblue;
    width:80%;
    font-family: "Roboto";
  }
+ .form-group input[type="checkbox"]{
+   width: 16px;
+   height:16px;
+ }
+ .form-group input[type="submit"]{
+   background-color: blue;
+   color:white;
+   font-weight: 500;
+   /*padding:16px 16px 16px 16px;*/
+   cursor:pointer;
+ }
 p{
    margin:0;
 }
@@ -144,7 +155,7 @@ h5{
 #footer-links{
    list-style:none;
    text-align:center;
-}
+ }
 #footer-links li{
    display:inline;
    margin:0 16px;
